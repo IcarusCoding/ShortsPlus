@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Shorts+",
+  "version": "1.0",
+  "description": "An extension to enhance youtube shorts by adding a custom youtube-style video player ",
+  "author": "IcarusCoding",
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["js/content.js"],
+      "css": ["css/styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icon/icon16x16.png",
+    "32": "icon/icon32x32.png",
+    "48": "icon/icon48x48.png",
+    "128": "icon/icon128x128.png"
+  }
+}
